@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+
+.circulo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #4A507D;
+  clip-path: circle(18.1% at 78% 53%);
+  opacity: 0.4; 
+}
+
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  position: relative;
+  max-width: 80px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+header ul li a:hover {
+  background-color: #212CA3;
+  color: #fff;
+}
+
+.conteudo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conteudo .textBox {
+  position: relative;
+  max-width: 600px;
+}
+
+.conteudo .textBox h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.4em;
+  color: #333;
+}
+
+.conteudo .textBox h1 span {
+  font-weight: 900;
+  color: #212CA3;
+}
+
+.conteudo .textBox p {
+  color: #333;
+  line-height: 2.2em;
+  margin-bottom: 2%;
+}
+
+.conteudo .textBox button {
+  background-color: #000000;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 2% 2%;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.conteudo .textBox button:hover {
+  color: #212CA3;
+  background: #ffffff;
+}
+
+.conteudo .imgBox {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+.content .imgBox img {
+  max-width: 80%;
+}
+
+.thumb {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.thumb li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.thumb li:hover {
+  transform: translateY(-12px);
+}
+
+.thumb li img {
+  max-width: 4rem;
+}
+
+
+
+
